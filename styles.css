@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=News+Cycle&display=swap');
+body {
+    font-family: 'News Cycle';
+    padding-left: 15%;
+    padding-right: 15%;
+    font-size: larger;
+}
+
+.custom-item {
+    list-style-image: url('assets/flower-icon.svg');
+}
+
+.no-item {
+    list-style-type: none;
+}
+
+.titulo {
+    background-color: #f4f5f5;
+    color: rgb(182, 185, 9);
+    text-transform: uppercase;
+}
+
+span,
+li i {
+    font-weight: bold;
+}
+
+
+/* Estilo del pie de pagina y encabezado */
+
+footer {
+    background-color: #ffde59;
+    font-size: 120%;
+    margin-top: 10%;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+footer>* {
+    margin-right: 2%;
+}
+
+header {
+    margin-bottom: 10%;
+}
+
+header img {
+    width: 300px;
+}
+
+header,
+footer {
+    text-align: center;
+}
+
+
+/* Estilo de las tablas */
+
+.container {
+    width: 100%;
+    display: table;
+    margin-left: 2%;
+}
+
+.row {
+    display: table-row
+}
+
+.row-cell {
+    width: 15%;
+    display: table-cell
+}
+
+.cell {
+    display: table-cell
+}
